@@ -13,8 +13,8 @@ function showSection(sectionId) {
   }
 }
 // Home()
-About()
-// Project();
+// About()
+Project();
 // Contact();
 function Home() {
   showSection('Home-Content');
