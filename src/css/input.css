@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import "tailwindcss";
+
+ @theme {
+      --font-poppins: "Poppins", sans-serif; /* Define a custom font family */
+      --default-font-family: "Open Sans", var(--font-sans); /* Optionally, change the default font */
+    }
