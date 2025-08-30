@@ -1,3 +1,5 @@
+const Navbar = document.getElementById("Navbar")
+
 function showSection(sectionId) {
   const sections = ['Home-Content', 'About-Content', 'Project-Content', 'Contact-Content'];
   sections.forEach(id => {
@@ -13,21 +15,25 @@ function showSection(sectionId) {
   }
 }
 // Home()
-// About()
+ About()
 // Project();
- Contact();
+//  Contact();
 function Home() {
   showSection('Home-Content');
+  Navbar.classList.add('hidden')
 }
 
 function About() {
   showSection('About-Content');
+  Navbar.classList.remove('hidden')
 }
 
 function Project() {
   showSection('Project-Content');
+  Navbar.classList.remove('hidden')
 }
 
 function Contact() {
   showSection('Contact-Content');
+  Navbar.classList.remove('hidden')
 }
